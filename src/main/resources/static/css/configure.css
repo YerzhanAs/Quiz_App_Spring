@@ -1,0 +1,26 @@
+body{
+	background:#eee;
+}
+
+form.form-search{
+	height: 80px;
+}
+
+.main-container {
+	min-height: calc(100vh - 136px);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "image-box"
+						"text-box";
+	row-gap: 50px;
+	column-gap: 50px;
+}
+
+
+
+footer {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
